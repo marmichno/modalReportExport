@@ -1,0 +1,75 @@
+{
+  "exportReport": [
+    {
+      "reportName": "report name",
+      "format": "excel",
+      "emailTo": "email to",
+      "schedule": "noRepeat",
+      "id": 10
+    },
+    {
+      "reportName": "report name",
+      "format": "excel",
+      "emailTo": "email to",
+      "schedule": "specificDate",
+      "repeat": {
+        "date": "2022-02-11",
+        "time": "23:02"
+      },
+      "id": 11
+    },
+    {
+      "reportName": "report name",
+      "format": "excel",
+      "emailTo": "email to",
+      "schedule": "daily",
+      "repeat": {
+        "time": "12:03"
+      },
+      "id": 12
+    },
+    {
+      "reportName": "report name",
+      "format": "excel",
+      "emailTo": "email to",
+      "schedule": "weekly",
+      "repeat": {
+        "time": "12:34",
+        "day": "Monday"
+      },
+      "id": 13
+    },
+    {
+      "reportName": "",
+      "format": "",
+      "emailTo": "",
+      "schedule": "",
+      "id": 14
+    },
+    {
+      "reportName": "",
+      "format": "excel",
+      "emailTo": "",
+      "schedule": "noRepeat",
+      "id": 15
+    },
+    {
+      "reportName": "asd",
+      "format": "csv",
+      "emailTo": "asd",
+      "schedule": "specificDate",
+      "repeat": {
+        "date": "2022-02-11",
+        "time": "12:03"
+      },
+      "id": 16
+    },
+    {
+      "reportName": "asd",
+      "format": "csv",
+      "emailTo": "asdasd",
+      "schedule": "noRepeat",
+      "id": 17
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="sc-bdvvtL HiMlu"
+>
+  <div
+    className="sc-gsDKAQ fEsrgt"
+  >
+    <p
+      className="sc-gKclnd gefYSt"
+    >
+      Export Report
+    </p>
+  </div>
+  <form
+    autoComplete="off"
+    className="sc-dkPtRN bJDhMV"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <div
+      className="sc-hKwDye jXdvFQ"
+    >
+      <div
+        className="sc-pVTFL feqbJT"
+      >
+        <div
+          className="sc-jrQzAO cORcFK"
+        >
+          Report Name
+        </div>
+        <div
+          className="sc-kDTinF kcBoLH"
+        >
+          <input
+            className="sc-iqseJM gYSIeQ"
+            name="reportName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Shareablee Report"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-pVTFL feqbJT"
+      >
+        <div
+          className="sc-jrQzAO cORcFK"
+        >
+          Format
+        </div>
+        <div
+          className="sc-kDTinF kcBoLH"
+        >
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              defaultChecked={true}
+              name="Format"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="excel"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="Format"
+            >
+              Excel
+            </label>
+          </div>
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              name="Format"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="csv"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="Format"
+            >
+              CSV
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-pVTFL feqbJT"
+      >
+        <div
+          className="sc-jrQzAO cORcFK"
+        >
+          E-mail to
+        </div>
+        <div
+          className="sc-kDTinF kcBoLH"
+        >
+          <input
+            className="sc-iqseJM gYSIeQ"
+            name="emailTo"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="client@company.com"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="sc-pVTFL feqbJT"
+      >
+        <div
+          className="sc-jrQzAO cORcFK"
+        >
+          Schedule
+        </div>
+        <div
+          className="sc-kDTinF kcBoLH"
+        >
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              data-testid="noRepeat"
+              defaultChecked={true}
+              name="schedule"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="noRepeat"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="schedule"
+            >
+              No repeat
+            </label>
+          </div>
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              data-testid="specificDate"
+              name="schedule"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="specificDate"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="schedule"
+            >
+              Specific date
+            </label>
+          </div>
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              data-testid="daily"
+              name="schedule"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="daily"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="schedule"
+            >
+              Daily
+            </label>
+          </div>
+          <div
+            className="sc-bqiRlB kSktzV"
+          >
+            <input
+              className="sc-crHmcD eUERYU"
+              data-testid="weekly"
+              name="schedule"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="radio"
+              value="weekly"
+            />
+            <label
+              className="sc-egiyK gznvPK"
+              htmlFor="schedule"
+            >
+              Weekly
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-eCImPb jJXhll"
+    >
+      
+      
+      <button
+        className="sc-jRQBWg grNFPM"
+      >
+        Cancel
+      </button>
+      <button
+        className="sc-jRQBWg grNFPM"
+        data-testid="submitForm"
+      >
+        OK
+      </button>
+    </div>
+  </form>
+</div>
+`;
